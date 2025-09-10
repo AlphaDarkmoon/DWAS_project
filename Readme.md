@@ -121,8 +121,6 @@ conda activate DWAS_env
 pip install fastapi uvicorn bandit semgrep pip-audit pylint flake8 sqlalchemy python-multipart
 pip install "celery[redis]"
 
-# Install testing dependencies
-pip install -r requirements-test.txt
 ```
 
 ### 3. Start Redis Server
